@@ -268,7 +268,7 @@ Resources:
           Ebs: 
             VolumeType: "gp2"
             DeleteOnTermination: "true"
-            VolumeSize: "8"
+            VolumeSize: "10"
       ImageId: !FindInMap
         - RegionMap
         - !Ref 'AWS::Region'
@@ -338,7 +338,7 @@ Resources:
           Ebs: 
             VolumeType: "gp2"
             DeleteOnTermination: "true"
-            VolumeSize: "8"
+            VolumeSize: "10"
       ImageId: !FindInMap
         - RegionMap
         - !Ref 'AWS::Region'
